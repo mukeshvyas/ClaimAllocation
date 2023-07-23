@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ClaimAllocation.props" />
+</Project>
