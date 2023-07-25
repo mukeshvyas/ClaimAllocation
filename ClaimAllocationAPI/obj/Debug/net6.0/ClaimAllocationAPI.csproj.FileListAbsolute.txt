@@ -1,0 +1,7 @@
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.csproj.AssemblyReference.cache
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.AssemblyInfoInputs.cache
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.AssemblyInfo.cs
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.csproj.CoreCompileInputs.cache
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocationAPI\obj\Debug\net6.0\ClaimAllocationAPI.MvcApplicationPartsAssemblyInfo.cache
