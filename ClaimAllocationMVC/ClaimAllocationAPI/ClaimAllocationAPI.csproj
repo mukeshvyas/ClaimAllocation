@@ -44,6 +44,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ClaimEntity\bin\Debug\ClaimEntity.dll</HintPath>
     </Reference>
+    <Reference Include="ClaimModel">
+      <HintPath>..\ClaimModel\bin\Debug\ClaimModel.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -125,6 +128,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Claimlist\" />
+    <Folder Include="Views\Claim\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -145,6 +150,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ClaimController.cs" />
+    <Compile Include="Controllers\ClaimlistController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />

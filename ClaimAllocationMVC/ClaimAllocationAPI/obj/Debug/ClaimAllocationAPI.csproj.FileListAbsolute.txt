@@ -34,3 +34,5 @@ D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimAllocationAPI\obj\Debug\Cla
 D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimAllocationAPI\obj\Debug\ClaimAllocationAPI.pdb
 D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimAllocationAPI\bin\ClaimEntity.dll
 D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimAllocationAPI\bin\ClaimEntity.pdb
+D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimAllocationAPI\bin\ClaimModel.dll
+D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimAllocationAPI\bin\ClaimModel.pdb
