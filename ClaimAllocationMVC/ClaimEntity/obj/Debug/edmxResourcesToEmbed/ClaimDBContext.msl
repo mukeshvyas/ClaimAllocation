@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Claims">
       <EntityTypeMapping TypeName="AlgoZyModel.Claim">
         <MappingFragment StoreEntitySet="Claim">
+          <ScalarProperty Name="ClaimNo" ColumnName="ClaimNo" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="PatientName" ColumnName="PatientName" />
           <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
@@ -100,5 +101,20 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetClaimlist" FunctionName="AlgoZyModel.Store.GetClaimlist">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="AlgoZyModel.GetClaimlist_Result">
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ClaimNo" ColumnName="ClaimNo" />
+          <ScalarProperty Name="patientName" ColumnName="patientName" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="ClaimStatus" ColumnName="ClaimStatus" />
+          <ScalarProperty Name="AllowedAmount" ColumnName="AllowedAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="LastComment" ColumnName="LastComment" />
+          <ScalarProperty Name="AssignedTo" ColumnName="AssignedTo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

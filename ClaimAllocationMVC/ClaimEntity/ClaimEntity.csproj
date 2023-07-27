@@ -82,7 +82,11 @@
     <Compile Include="Client.cs">
       <DependentUpon>ClaimDBContext.tt</DependentUpon>
     </Compile>
+    <Compile Include="GetClaimlist_Result.cs">
+      <DependentUpon>ClaimDBContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\ClaimlistRepo.cs" />
     <Compile Include="Repo\ClaimRepo.cs" />
     <Compile Include="Repo\UserRepo.cs" />
     <Compile Include="Role.cs">

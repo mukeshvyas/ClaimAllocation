@@ -11,12 +11,11 @@ namespace ClaimAllocationAPI.Controllers
 {
     public class ClaimlistController : ApiController
     {
-        public ClaimCount Getclaimlist()
+        public List<ClaimlistModel> Getclaimlist()
         {
-            ClaimRepo CR = new ClaimRepo();
-            ClaimCount Claim = new ClaimCount();
-            Claim = CR.Getclaim();
-            return Claim;
+            ClaimlistRepo CR = new ClaimlistRepo();
+            return CR.GetClaimlists();
+            
         }
     }
 }

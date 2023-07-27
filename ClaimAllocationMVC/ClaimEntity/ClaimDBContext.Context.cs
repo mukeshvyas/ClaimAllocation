@@ -9,9 +9,13 @@
 
 namespace ClaimEntity
 {
+    using ClaimModel;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Objects;
+    using System.Data.Objects.DataClasses;
+    using System.Linq;
     
     public partial class AlgoZyEntities : DbContext
     {
@@ -34,5 +38,10 @@ namespace ClaimEntity
         public DbSet<Role> Roles { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<ClaimlistModel> ClaimlistModel { get; set; }
+        public virtual ObjectResult<GetClaimlist_Result> GetClaimlist()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetClaimlist_Result>("GetClaimlist");
+        }
     }
 }

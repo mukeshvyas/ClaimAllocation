@@ -8,26 +8,9 @@ namespace ClaimModel
 {
     public class ClaimCount
     {
-        int ClaimUnassigned;
-        int ClaimAssigned;
-        int ClaimWIP;
+        public int ClaimUnassigned { get; set; }
+        public int ClaimAssigned { get; set; }
+        public int ClaimWIP { get; set; }
 
-        public int claimUnassigned
-        {
-            get { return ClaimUnassigned; }
-            set { ClaimUnassigned = value; }
-        }
-
-        public int claimAssigned
-        {
-            get { return ClaimAssigned; }
-            set { ClaimAssigned = value; }
-        }
-
-        public int claimWIP
-        {
-            get { return ClaimWIP; }
-            set { ClaimWIP = value; }
-        }
     }
 }

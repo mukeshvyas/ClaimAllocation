@@ -23,5 +23,6 @@ namespace ClaimEntity
         public Nullable<int> ClaimStatusId { get; set; }
         public string LastComment { get; set; }
         public Nullable<long> ClientId { get; set; }
+        public string ClaimNo { get; set; }
     }
 }

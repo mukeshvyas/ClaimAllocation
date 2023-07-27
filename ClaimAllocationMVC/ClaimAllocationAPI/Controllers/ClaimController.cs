@@ -17,9 +17,14 @@ namespace ClaimAllocationAPI.Controllers
         public  ClaimCount Getclaim()
         {
             ClaimRepo CR = new ClaimRepo();
-            ClaimCount Claim = new ClaimCount();
-            Claim = CR.Getclaim();
-            return Claim;
+            return CR.Getclaim();
+           
         }
-	}
+        public ClaimCount Getclaim(int ClaimId)
+        {
+            ClaimRepo CR = new ClaimRepo();
+            return CR.Getclaim();
+
+        }
+    }
 }

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="AlgoZyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="AlgoZyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Claim">
     <Key>
       <PropertyRef Name="Id" />
@@ -13,6 +13,7 @@
     <Property Name="ClaimStatusId" Type="int" />
     <Property Name="LastComment" Type="nvarchar(max)" />
     <Property Name="ClientId" Type="bigint" />
+    <Property Name="ClaimNo" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="ClaimCommentHistory">
     <Key>
@@ -90,6 +91,7 @@
     <Property Name="RoleId" Type="bigint" />
     <Property Name="IsActive" Type="bit" />
   </EntityType>
+  <Function Name="GetClaimlist" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
   <EntityContainer Name="AlgoZyModelStoreContainer">
     <EntitySet Name="Claim" EntityType="Self.Claim" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ClaimCommentHistory" EntityType="Self.ClaimCommentHistory" Schema="dbo" store:Type="Tables" />

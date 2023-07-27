@@ -9,29 +9,58 @@ namespace ClaimEntity.Repo
 {
     public class ClaimRepo
     {
-        AlgoZyEntities DBContext = new AlgoZyEntities();
+        
         public int GetclaimUnassigned()
         {
-            return DBContext.Claims.Where(o => o.ClaimStatusId == 1).Count();
+            using (AlgoZyEntities DBContext = new AlgoZyEntities())
+            {
+                return DBContext.Claims.Where(o => o.ClaimStatusId == 1).Count();
+            }            
         }
         public int GetclaimAssigned()
         {
-            return DBContext.Claims.Where(o => o.ClaimStatusId == 2).Count();
+            using (AlgoZyEntities DBContext = new AlgoZyEntities())
+            {
+                return DBContext.Claims.Where(o => o.ClaimStatusId == 2).Count();
+            }
+           
             
         }
         public int GetclaimWIP()
         {
-            return DBContext.Claims.Where(o => o.ClaimStatusId == 3).Count();
+            using (AlgoZyEntities DBContext = new AlgoZyEntities())
+            {
+                return DBContext.Claims.Where(o => o.ClaimStatusId == 3).Count();
+            }
+           
             
         }
 
         public ClaimCount Getclaim()
         {
-            ClaimCount UR = new ClaimCount();
-            UR.claimUnassigned = DBContext.Claims.Where(o => o.ClaimStatusId == 1).Count();
-            UR.claimAssigned = DBContext.Claims.Where(o => o.ClaimStatusId == 2).Count();
-            UR.claimWIP = DBContext.Claims.Where(o => o.ClaimStatusId == 3).Count();
-            return UR;
+            using (AlgoZyEntities DBContext = new AlgoZyEntities())
+            {
+                ClaimCount UR = new ClaimCount();
+                UR.ClaimUnassigned = DBContext.Claims.Where(o => o.ClaimStatusId == 1).Count();
+                UR.ClaimAssigned = DBContext.Claims.Where(o => o.ClaimStatusId == 2).Count();
+                UR.ClaimWIP = DBContext.Claims.Where(o => o.ClaimStatusId == 3).Count();
+                return UR;
+            }
+        }
+
+        public List<ClaimDetailsModel> GetClaimDetails(int ClaimID)
+        {
+
+            using (AlgoZyEntities DBContext = new AlgoZyEntities())
+            {
+                return DBContext.ClaimDetails.Where(o => o.ClaimId == ClaimID).Select(p => new ClaimDetailsModel()
+                {
+                    CPTHCPC = p.CPTHCPC,
+                    AllowedAmount = p.AllowedAmount,
+                    PaidAmount=p.PaidAmount
+                }).ToList();
+            }
+
         }
 
     }
