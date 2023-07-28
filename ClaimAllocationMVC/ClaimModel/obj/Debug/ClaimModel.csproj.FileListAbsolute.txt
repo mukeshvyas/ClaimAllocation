@@ -1,5 +1,0 @@
-D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimModel\bin\Debug\ClaimModel.dll
-D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimModel\bin\Debug\ClaimModel.pdb
-D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimModel\obj\Debug\ClaimModel.dll
-D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimModel\obj\Debug\ClaimModel.pdb
-D:\Mukesh vyas\Self document\ClaimAllocationMVC\ClaimModel\obj\Debug\ClaimModel.csproj.CoreCompileInputs.cache
