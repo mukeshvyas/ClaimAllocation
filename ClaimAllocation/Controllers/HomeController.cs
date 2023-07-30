@@ -1,6 +1,8 @@
-﻿using ClaimAllocation.Models;
+﻿using ClaimAllocation.Common;
+using ClaimAllocation.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Net;
 
 namespace ClaimAllocation.Controllers
 {
@@ -15,6 +17,16 @@ namespace ClaimAllocation.Controllers
 
         public IActionResult Index()
         {
+            webClient wclient = new webClient();
+            
+            string result = wclient.GetClientData("Claim");
+            //string result = wclient.SetClientData("ClaimSave", Newtonsoft.Json.JsonConvert.SerializeObject(objData));
+            if (!string.IsNullOrWhiteSpace(result))
+            {
+
+               // return JsonConvert.DeserializeObject<T>(result);
+            }
+
             return View();
         }
 

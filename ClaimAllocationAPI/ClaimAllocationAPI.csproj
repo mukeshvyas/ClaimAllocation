@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClaimEntity\ClaimEntity.csproj" />
     <ProjectReference Include="..\ClaimModel\ClaimModel.csproj" />
+    <ProjectReference Include="..\ClaimRepository\ClaimRepository.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClaimAllocation
 build_property.RootNamespace = ClaimAllocation
-build_property.ProjectDir = D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocation\
+build_property.ProjectDir = D:\Backup D drive 06_Nov_2021\Software\DemoProject\Git ClaimAllocation\ClaimAllocation\ClaimAllocation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Mukesh vyas\Self document\ClaimAllocation\ClaimAllocation
+build_property.MSBuildProjectDirectory = D:\Backup D drive 06_Nov_2021\Software\DemoProject\Git ClaimAllocation\ClaimAllocation\ClaimAllocation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/Home/Index.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/Home/Privacy.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/Shared/Error.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/_ViewImports.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/_ViewStart.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mukesh vyas/Self document/ClaimAllocation/ClaimAllocation/Views/Shared/_Layout.cshtml]
+[D:/Backup D drive 06_Nov_2021/Software/DemoProject/Git ClaimAllocation/ClaimAllocation/ClaimAllocation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wtach42luz

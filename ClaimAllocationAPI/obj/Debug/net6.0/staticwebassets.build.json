@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5O01CkSx9vxwIJoqAzNlfTzH0lbmnLFc/hIepC/V5I8=",
+  "Source": "ClaimAllocationAPI",
+  "BasePath": "_content/ClaimAllocationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
